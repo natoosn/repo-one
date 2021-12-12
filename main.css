@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.tagline {
+  font-family: fantasy;
+  color: #ffcb6b;
+  text-shadow: 1px 1px 25px;
+}
+
+h1,h2,h3,
+ul,ol,
+p,
+img {
+  margin-bottom: 1.5rem;
+}
+
+body {
+  background: url('https://i0.wp.com/www.artdega.org/wp-content/uploads/2020/08/double-bubble-outline.png?ssl=1') repeat center;
+  font-family: cursive, serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #f9dda9;
+}
+
+.locations,
+.Intro,
+.cover,
+.Contact {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1,h2 {
+  color: #f6d088;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.blurb img {
+  height: 7.5rem;
+}
+
+@media (min-width: 768px) {
+
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb::after {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
